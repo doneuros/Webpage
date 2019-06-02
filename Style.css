@@ -1,8 +1,27 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+/* https://fonts.google.com/ */
+body {font-family: "Lato", sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: "Lato", serif;}
+.section-header {
+    font-size: 60px;
+    font-family: "Tangerine", serif;
+}
+
 body, html {
     height: 100%;
-    color: #777;
+    color: rgb(0, 0, 0);
+    background-color: rgba(220,220,234,1);
     line-height: 1.8;
+}
+
+.card {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.w3-image {
+    vertical-align: middle;    
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .w3-bar { margin: margin-bottom }
@@ -41,4 +60,43 @@ body, html {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+ 
+
+p.top-margin {
+    margin-top: 20%;
+  }
+
+.button {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;    
+}
+
+.button-red {        
+    background-color: red;    
+}
+.button-green {        
+    background-color: green;    
+}
+.button-yellow {        
+    background-color: yellow;    
+}
+
+.button:hover {
+    box-shadow: 0 7px #666;
+}
+
+.button:active {
+    box-shadow: 0 7px #666;
+    transform: translateY(7px);
 }
